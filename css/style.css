@@ -1,0 +1,376 @@
+/* =====================
+	Google Fonts Popins
+=======================	*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* =====================
+	Equidity Global CSS
+======================= */
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #3d3d3d;
+}	
+a{
+	text-decoration: none;
+}
+.container{
+	
+}
+.img{
+	
+}
+/* =====================
+	Header Area CSS
+======================= */
+
+.header-area{
+	padding: px;
+}
+.logo{
+	width: 140px;
+}
+.navbar-nav{
+	margin-left: 70px;
+}
+.navbar-nav .nav-item{
+	margin: 0 7px;
+}
+.navbar-nav .nav-item .nav-link{
+	color: #3d3d3d;
+	font-weight: 500;
+	font-size: 16px;
+}
+.login-btn:hover{
+	background-color: #fff;
+	color: #924f35;
+}
+.login-btn .fa-arrow-right{
+	margin-left: 10px;
+}
+.search-form{
+	position: relative;
+	margin-right: px;
+}
+.search-form .form-control{
+	border-radius: 0;
+	border: none;
+	border-right: 2px solid #dcdde0;
+	z-index: 1;
+	background: transparent;
+	width: 100px;
+}
+.search-form .form-control:focus {
+  box-shadow: none;
+  border-bottom: 2px solid #dcdde0;
+  width: 200px;
+  transition: all 0.4s ease in-out;
+}
+.search-form .fa-magnifying-glass{
+	position: absolute;
+	right: 21px;
+	top: 10px;
+	margin-right: 12px;
+}
+.login-btn{
+	border: 1px solid #924f35;
+	color: #fff;
+	font-size: 12px;
+	padding: 6px 20px;
+	background-color: #924f35;
+	border-radius: 50px;
+	margin-left: 15px;
+	transition: all 0.4s ease in-out;
+}
+
+/* =====================
+	Banner  Area CSS
+======================= */
+.banner-area{
+	background: url(../image/hfimg.png);
+	background-size: cover;
+	padding: 100px 0;
+}
+.banner-area h2{
+	font-size: 27px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	line-height: 44px;
+	color: #3d3d3d;
+
+}
+.banner-area form .form-control{
+	height: 28px;
+	width: 90%;
+	border-radius: 30px ;
+	padding-left: 15px;
+	font-size: 12px;
+	font-weight: 600px;
+	color: #3d3d3d;
+}
+.banner-area form .form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: green;
+	outline: 0 ;
+	box-shadow: 0 0 0 0rem rgb(13, 110, 253, .25);
+}
+.banner-area form .btn-mail{
+	background: transparent;
+	border: 1px solid #95563d;
+	color: #95563d ;
+	padding: 4px 18px;
+	margin-left: 20px;
+	border-radius:30px ;
+	font-size: 14px;
+	font-weight: 500;
+	transition: all 0.3s aese-in-out;
+}
+.banner-area form .btn-mail:hover{
+	background: #3d3d3d;
+}
+
+/* =====================
+	Features  Area CSS
+======================= */
+.features-area{
+	padding: 70px 0 50px;
+}
+.features-eli{
+	text-align: center;
+	padding: 0 40px;
+}
+.features-eli img{
+	width: 140px;
+	display: block;
+	margin: 0 auto;
+}
+.features-eli h3{
+	font-size: 22px ;
+	font-weight: 600;
+	color: #3d3d3d;
+	margin: 15px 0 12px;
+}
+.p-1{
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+/* =====================
+	Graph  Area CSS
+======================= */
+.graph-area{
+	padding: 75px 0 25px;
+	background: #3d3d3d;
+}
+.graph-area h2{
+	font-size: 29px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	line-height: 44px;
+	color: #fff;
+}
+.graph-list ul{
+	padding: 0;
+}
+.graph-list ul li{
+	list-style: none;
+	line-height: 30px;
+	color: #fff;
+}
+.graph-list ul li i{
+	background: #95563d;
+	width: 25px;
+	height: 25px ;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size:16px ;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+.graph-area img{
+	float: right;
+	max-width: 70%;
+	height: auto;
+	margin: 15px 0 35px;
+}
+
+/* =====================
+	Subscription CSS
+======================= */
+.subscription-area{
+	padding: 75px 0 25px;
+}
+.subscription-background{
+	background: url(../image/bckg.png) no-repeat center top;
+	background-size: cover;
+	padding: 150px 0;
+	border-radius: 15px;
+}
+.subscription-area h2{
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	p
+}
+.subscription-area form .form-control{
+	height: 34px;
+	border-radius: 30px ;
+	padding: 0 25px ;
+	font-size: 10px;
+	margin-left: px;
+}
+.subscription-area form .form-control:focus{
+	color: #212529;
+	background-color: #fff;
+	border-color: green;
+	outline: 0 ;
+	box-shadow: 0 0 0 0rem rgb(13, 110, 253, .25)
+}
+
+.mail-box{
+	position: relative;
+}
+.mail-box .btn-send{
+	position: absolute;
+	top: 4px;
+	right: 6px ;
+	background: #924f35;
+	border: none;
+	padding: 1px 10px;
+	border-radius: 50px;
+	color: #fff;
+}
+.mail-box .btn-send:hover{
+	transition: all 0.3s ease-in-out;
+	background: #3d3d3d;
+} 
+
+/* =====================
+	Footer Global CSS
+======================= */
+footer{
+	padding: 75px 10px;
+}
+footer h3{
+	font-size: 22px ;
+	font-weight: 600;
+	color: #3d3d3d;
+	margin-bottom: 20px;
+}
+footer p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+/* Social Media */
+
+.social-media ul{
+	padding: 0;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline;
+}
+.social-media ul li i{
+	background: #3d3d3d;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color:#fff ;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+}
+.social-media ul li i:hover{
+	background:#95563d;
+}
+
+/* Footer Menu */
+
+.footer-menu ul{
+	padding: 0;
+}
+.footer-menu ul li{
+	list-style: none;
+	line-height: 32px;
+}
+.footer-menu ul li a{
+	color: #3d3d3d;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+.footer-menu ul li a:hover{
+	color: #95563d;
+}
+
+/* Contact Information */
+
+.contact-info ul {
+	padding: 0;
+}
+.contact-info ul li{
+	list-style: none;
+	line-height: 32px;
+}
+.contact-info ul li i{
+	margin-right: 10px;
+}
+.contact-info ul li a{
+	color: #3d3d3d;
+	font-weight: 500;
+	transition: all 0.3s ease-in-out;
+}
+.contact-info ul li a:hover{
+	color: #95563d;
+}
+/* Copyright Area */
+.copyright-area{
+	margin-top: 25px;
+	border-top: 1px solid #ededed;
+	padding: 6px 0 ;
+}
+.copyright-area .footer-logo{
+	width: 160px;
+}
+.copyright-area p{
+	text-align: right;
+	margin: 3px 0 0;
+}
+
+/* For Notebook Device */
+@media  (min-width: 768px) and (max-width: 990px){
+
+}
+
+/* For Tablet Device */
+@media (min-width: 577px) and (max-width: 768px){
+ 
+}
+
+/* For Mobile Device */
+@media  (min-width: 320px) and (max-width: 576px){
+		.header-area nav .navbar{padding: 5px 0px;width: 326px; }
+		.banner-area{ padding:50px 0px ; }
+		.banner-area h2{ text-align: center; }
+		.banner-area form .form-control{ margin-left: 10px; }
+		.banner-area form .btn-mail{ display: block;margin: 0 auto; }
+		.features-eli img { width: 100px;}
+		.features-eli{ margin-bottom: 20px; }
+		.features-area p{ font-size: 16px; }
+		.graph-area h2{ text-align: center;font-size: 27px;margin-bottom: 25px; }
+		.graph-list ul li{ list-style: none;line-height: 21px;margin-bottom: 10px;font-size: 14px; }
+  	.graph-area img {float: initial;  max-width: 60%;display: block;  margin: 0 auto; }
+  	.subscription-background{ padding: 100px 0; }	
+  	.subscription-area h2{ font-size: 20px; }
+		.subscription-area form{ padding: 0 20px; }	
+		.mail-box .btn-send{font-size: 12px; padding: 2px 6px;top: 6px;right: 10px; }
+		.widget, footer p{ text-align: center; }	
+		.copyright-area p{ text-align: center;font-size: 14px; }		
+	}
